@@ -1,26 +1,11 @@
-header h1 {
-  
-    padding: 30px;
-    border: 20px;
-    background-color: rgb(114, 113, 111);
-    color: aliceblue;
-    font-family: cursive;
-}
-
-.header nav {
-    float: right;
-    font-size: 20px;
-}
-.header nav ul {
-list-style-type: none;
-}
-
-.header nav ul li {
+nav section {
     display: inline-block;
-    margin-left: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    border: 10px;
+    max-width: fit-content;
 
 }
 
-@media only screen and (max-width: 1240px) {
-    
-}
+@media only screen and (max-width: 1240px) {}
